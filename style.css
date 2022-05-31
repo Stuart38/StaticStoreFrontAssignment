@@ -1,0 +1,133 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://www.teahub.io/photos/full/21-214614_google-pixel-4-wallpapers-data-src-img-1019750.jpg);
+    background-position: center;
+}
+
+.title {
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 10px 10px black;
+    color: white;
+}
+
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cccccc;
+    opacity: .6;
+}
+
+
+li {
+    float: left;
+    border-right: 1px solid black;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li:hover {
+    background-color: #a5a5a5;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+    height: 50em;
+    text-align: center;
+    text-shadow: 2px 2px #a5a5a5;
+  }
+  
+
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row {
+      text-align: center;
+      color: white;
+  }
+
+
+
+#Switch {
+    background-image: url(https://wallpaperaccess.com/full/236572.jpg);
+}
+
+#Playstation {
+    background-image: url(https://mp1st.com/wp-content/uploads/2021/06/playstation-logo.jpg);
+    background-position: center;
+}
+
+#Xbox {
+    background-image: url(https://wallpaperscmscwm.azurewebsites.net/Xbox-and-Bethesda-Games-Showcase/standard.png);
+    background-position: center;
+}
+
+#PC {
+    background-image: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2016/07/dark-theme-windows.jpg);
+    background-position: center;
+}
+
+button {
+    display: inline-block;
+    border: .1em solid #FFFFFF;
+    margin: 2.5em .3em .3em 0;
+    border-radius: .12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: all .2s;
+    padding: 16px 32px;
+    font-size: large;
+    background-color: #cccccc;
+    box-shadow: 5px 5px #a5a5a5;
+    cursor: pointer;
+}
+
+button:hover {
+    color: gray;
+    background-color: #FFFFFF;
+}
+
+footer {
+    background-color: #a5a5a5;
+    height: 25px;
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 1em;
+    opacity: .7;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 .7em 0 0;
+    margin: 0 10px 10px;
+}
+
+footer ul li:before {
+    padding-right: .7em;
+}
